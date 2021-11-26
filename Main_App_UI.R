@@ -73,7 +73,7 @@ ui <- fluidPage(
 server <- function(input, output, session) {
   
   observeEvent(input$refresh_button, {
-    source("App.R")
+    source("Main_App.R")
   })
 
   d_view <- reactive({
@@ -198,4 +198,4 @@ server <- function(input, output, session) {
 }
 
 #call shiny app
-shinyApp(ui = ui, server = server, option = list(height = "500px"))
+shinyMain_App(ui = ui, server = server, option = list(height = "500px"))
