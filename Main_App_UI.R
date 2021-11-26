@@ -185,7 +185,7 @@ server <- function(input, output, session) {
   })
 
   output$wordcloud_pos <- renderWordcloud2({
-    wordcloud2(positive_wc(), size = 0.6, backgroundColor = "#222222")
+    wordcloud2(positive_wc(), size = 0.8, backgroundColor = "#222222")
   })
 
   output$word_neg <- renderPlotly({
@@ -198,4 +198,4 @@ server <- function(input, output, session) {
 }
 
 #call shiny app
-shinyMain_App(ui = ui, server = server, option = list(height = "500px"))
+shinyApp(ui = ui, server = server, option = list(height = "500px"))

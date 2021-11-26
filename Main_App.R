@@ -171,5 +171,5 @@ write.csv(predict_data_clean, file =  "data-raw/predict_data_clean.csv", row.nam
 write.csv(predict_result, file =  "data-raw/predict_result.csv", row.names = FALSE)
 cat(sprintf("\nSelesai"))
 
-#save.image("App.RData")
-#load('App.RData')
+save.image("Main_App.RData")
+load('Main_App.RData')
