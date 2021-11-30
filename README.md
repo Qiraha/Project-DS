@@ -8,4 +8,4 @@ Nama / NIM : Afifrendra Rifqi Nugraha / 123190012
 
 Link Youtube : https://youtu.be/_arVociZsV8
 
-Link Git/Github : https://github.com/Qiraha/Project-DS
+Link Github : https://github.com/Qiraha/Project-DS
